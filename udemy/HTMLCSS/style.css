@@ -1,0 +1,47 @@
+/* New CSS */
+*{
+    text-align: right;
+}
+
+body{
+    background-image: url("unsplash.jpg");
+    background-size: cover;
+}
+.webtext:first-child{
+    color: #C0000E;
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.6);
+    cursor: pointer;
+}
+p{
+    line-height: 30px;
+    color: green;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    font-size:150%;
+    font-family: 'EB Garamond' ;
+
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.webtext{
+    border: dashed rgba(255, 176, 170, 0.6);
+}
+#div1{
+    background: rgba(0, 0, 255, 0.2);
+}
+#div2{
+    background: rgba(255, 0, 0, 0.2);
+}
+img{
+    float: right;
+}
+footer{
+    clear: both;
+    text-align: center;
+    color: #fff;
+}

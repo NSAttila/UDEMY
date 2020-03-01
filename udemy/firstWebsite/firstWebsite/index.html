@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Register</h1>
+    </header>
+    <nav>
+        <!-- <a href="www.google.com">google</a> -->
+    </nav>
+    <footer>
+        <p>Website made with love</p>
+    </footer>
+    <!-- <a href="newPage.html">New page</a>
+    <ul>
+        <li>banana </li>
+        <li>apple</li>
+        <ol>
+            <hr>
+            <li>kivi</li>
+            <img src="https://previews.123rf.com/images/dionasa/dionasa1802/dionasa180200068/96378554-kivi-fruits-isolated-on-white-background-a-half-of-kivi-fresh-for-diet-and-healthy-.jpg" alt="kivi" width="100px" height="100px">
+            <br>
+        </ol>
+        <li>coconut</li>
+    </ul> -->
+    
+    <!-- Use GET, not POST -->
+    <div>
+        <form method="GET" action="">
+       <span>First name: </span> <input type="text" value="" name="fistname"><br>
+       Email: <input type="email" value="" required name="email"><br>
+       Password: <input type="password" min="5" name="password"> <br>
+       Birthday: <input type="date" name="" id="" name="birthday"><br>
+       Gender: <br>
+        <input type="radio" name="gender" value="Male">Male <br>
+        <input type="radio" name="gender" value="Female">Female <br>
+        <input type="radio" name="gender" value="Other">Other <br>
+        Pets: <br>
+        <input type="checkbox" name="cat"> Cat <br>
+        <input type="checkbox" name="dog">Dogs<br>
+        Cars: <br>
+        <select multiple name="cars" id="">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option> 
+        </select><br>
+        <input type="submit" value="Register">
+        <input type="reset">
+    </form>
+</div>
+
+
+    <blockquote hidden cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+
+    <!-- A rovidites jelenteset mutatja meg -->
+    <p>The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.</p>
+
+    <!--target="_blank" =>open the document in a new window -->
+    <a href="html_images.asp" target="_blank">HTML Images</a>
+    
+    <!-- letters instead of numbers -->
+    <ol hidden type="A"><li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li></ol>
+
+  <p>Code example:<code>var person;</code></p>
+
+
+  <!-- ACTION redirect the page to the specificated page   (form action="" method="")-->
+  <form action="/action_page.php">Name: <input type="text" name="name"><input type="submit"></form>
+
+  <!-- READ only the valeu cannot be changed -->
+  <!-- <form action="/action_page.php"><input type="text" readonly placeholder="Kati"></form>     -->
+
+
+  <!-- !! switch the classname  -->
+<p id="demo" class="doo">DEOO</p>
+<script>
+document.getElementById("demo").className= "switchClassName";
+// document.getElementById("demo").style.display = "none";
+</script>
+
+
+</body>
+</html>
